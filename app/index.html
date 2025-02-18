@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERPNext Record Creator</title>
+</head>
+<body>
+    <h1>Create ERPNext Record</h1>
+    <label for="doctype">Doctype:</label>
+    <input type="text" id="doctype" placeholder="Enter Doctype" />
+    <br/>
+    <label for="data">Data (JSON):</label>
+    <textarea id="data" placeholder='{"fieldname": "value"}'></textarea>
+    <br/>
+    <button id="submit">Create Record</button>
+    <p id="result"></p>
+    <script src="renderer.js"></script>
+</body>
+</html>
